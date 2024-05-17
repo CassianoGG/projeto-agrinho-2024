@@ -1,3 +1,8 @@
+:root{
+    --cabecalho: #2E9E23;
+    --nav: #22791A;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
