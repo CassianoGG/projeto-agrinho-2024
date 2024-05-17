@@ -10,10 +10,14 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: var(--cabecalho);
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+nav{
+    background-color: var(--nav);
 }
 
 nav ul {
