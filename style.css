@@ -1,5 +1,5 @@
 :root{
-    --cabecalho: #2E9E23;
+    --cabecalho: #090f09;
     --nav: #22791A;
 }
 
@@ -9,8 +9,8 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: var(--cabecalho);
+.cabecalho {
+    background-color:aqua;
     color: white;
     text-align: center;
     padding: 20px;
