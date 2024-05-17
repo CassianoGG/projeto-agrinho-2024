@@ -19,20 +19,14 @@ header {
 nav{
     background-color: var(--nav);
     text-align: center;
-    display: flex;
-    justify-content: center;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-nav ul li {
-    float: left;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li a {
@@ -44,7 +38,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #4CAF50;
+
+}
+
+nav ul li: a {
+    background-color: var(--nav);
 }
 
 main {
