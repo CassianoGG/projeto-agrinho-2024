@@ -14,4 +14,4 @@ O site aborda diversos tópicos relacionados à produção da erva-mate e sua va
 sinta-se à vontade para explorar o código-fonte, sugerir melhorias e compartilhar essas informações com outras pessoas interessadas no cultivo da erva-mate e com aqueles que não sabem do tamanho da importância que ela tem para a sociedade.
 
 ## Github Pages
-https://projeto-agrinho-2024-five.vercel.app
+https://caminho-ouro-verde.vercel.app
