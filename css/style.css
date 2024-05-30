@@ -10,7 +10,7 @@ body {
 }
 
 .cabecalho {
-    background-color:aqua;
+    background-color:var(--cabecalho);
     color: white;
     text-align: center;
     padding: 20px;
