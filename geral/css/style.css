@@ -1,8 +1,8 @@
 :root{
     --cabecalho: #165816;
     --nav: #22791A;
-    --sec1: #147014;
-    --sec2: #166b16;
+    --sec1: #1a9b1a;
+    --sec2: #048a04;
 }
 
 body {
@@ -20,10 +20,14 @@ body {
 
 .sec1{
     background-color: var(--sec1);
+    margin: 0;
+    padding: 0;
 }
 
 .sec2{
     background-color: var(--sec2);
+    margin: 0;
+    padding: 0;
 }
 
 nav{
