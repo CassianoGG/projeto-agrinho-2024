@@ -1,6 +1,8 @@
 :root{
     --cabecalho: #165816;
     --nav: #22791A;
+    --sec1: #147014;
+    --sec2: #166b16;
 }
 
 body {
@@ -14,6 +16,14 @@ body {
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+.sec1{
+    background-color: var(--sec1);
+}
+
+.sec2{
+    background-color: var(--sec2);
 }
 
 nav{
