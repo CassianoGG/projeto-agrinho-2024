@@ -5,11 +5,12 @@
 }
 
 body {
-    background-color: ##1d8a1d;
+    background-color: #1d8a1d;
+    text-align: center;
 }
 
 .container {
-    background-color: #fff;
+    background-color: #F1EEED;
     padding: 40px  40px;
 }
 
