@@ -56,10 +56,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-main {
-    padding: 20px;
-}
-
 footer {
     background-color: var(--cabecalho);
     color: white;
