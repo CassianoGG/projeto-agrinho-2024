@@ -17,17 +17,61 @@ body {
     text-align: center;
     padding: 20px;
 }
+.titulo {
+    
+        font-size: 60px;
+        background: rgb(0, 250, 8);
+        background: linear-gradient(90deg, rgb(43, 133, 46) 8%, rgb(54, 255, 3) 51%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        color: transparent;
+        text-align: center;
+        padding-bottom: 40px;
+        padding: 0 10px 40px 10px;
+    
+        @media (max-width: 646px) {
+            font-size: 40px;
+            padding: 20px 0;
+        }
+    
+    
+        @media (max-width: 482px) {
+            font-size: 30px;
+        }
+    }
 
+   
+    
 .imagens{
     width: 50%;
     text-align: center;
+    
 }
+.botao{
+    border: none;
+    background: transparent;
+}
+.saibamais {
+    display: inline-block;
+    cursor: pointer ;
+    background-color: rgb(0, 255, 64);
+    border-radius: 40px;
+    letter-spacing: 1px;
+    padding: 12px 16px ;
+    color: white ;
+    transition: .5s;
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 8px ;
 
+}
 .sec1{
     background-color: var(--sec1);
     margin: 0;
     padding: 0;
 }
+
 
 .sec2{
     background-color: var(--sec2);
