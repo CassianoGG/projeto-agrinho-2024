@@ -40,17 +40,24 @@ body {
             font-size: 30px;
         }
     }
-
+.secdiv2 {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    text-align: justify;
+    
+}
    
     
 .imagens{
-    width: 50%;
+    width: 30%;
     text-align: center;
     
 }
 .botao{
     border: none;
     background: transparent;
+    
 }
 .saibamais {
     display: inline-block;
@@ -64,6 +71,7 @@ body {
     font-size: 10px;
     font-weight: 500;
     margin-left: 8px ;
+    
 
 }
 .sec1{
