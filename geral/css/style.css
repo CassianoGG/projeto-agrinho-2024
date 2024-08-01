@@ -80,6 +80,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: justify;
+    display: flexbox;
 }
 
 
@@ -88,6 +89,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: justify;
+    display: flexbox;
 }
 
 nav{
