@@ -80,3 +80,8 @@ body {
         object-fit: cover;
     }
 }
+
+.empresas{
+    width: 300px;
+    display: flex;
+}
