@@ -79,6 +79,7 @@ body {
     background-color: var(--sec1);
     margin: 0;
     padding: 0;
+    text-align: justify;
 }
 
 
@@ -86,6 +87,7 @@ body {
     background-color: var(--sec2);
     margin: 0;
     padding: 0;
+    text-align: justify;
 }
 
 nav{
