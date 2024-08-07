@@ -1,4 +1,4 @@
-:root{
+:root {
     --cabecalho: #165816;
     --nav: #22791A;
     --sec1: #1d8a1d;
@@ -25,80 +25,15 @@ body {
 }
 
 .titulo {
-    
-        font-size: 60px;
-        background: rgb(0, 250, 8);
-        background: linear-gradient(90deg, rgb(43, 133, 46) 8%, rgb(54, 255, 3) 51%);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        color: transparent;
-        text-align: center;
-        padding-bottom: 40px;
-        padding: 0 10px 40px 10px;
-    
-        @media (max-width: 646px) {
-            font-size: 40px;
-            padding: 20px 0;
-        }
-    
-    
-        @media (max-width: 482px) {
-            font-size: 30px;
-        }
-    }
-.secdiv2 {
-    display: flex;
-    align-items: flex-start;
+    font-size: 60px;
+    background: rgb(0, 250, 8);
+    background: linear-gradient(90deg, rgb(43, 133, 46) 8%, rgb(54, 255, 3) 51%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: transparent;
     text-align: center;
-    text-align: justify;
-    
-}
-   
-    
-.imagens{
-    width: 30%;
-    text-align: center;
-    
-}
-.botao{
-    border: none;
-    background: transparent;
-    
-}
-.saibamais {
-    display: inline-block;
-    cursor: pointer ;
-    background-color: rgb(0, 255, 64);
-    border-radius: 40px;
-    letter-spacing: 1px;
-    padding: 12px 16px ;
-    color: rgb(0, 0, 0) ;
-    transition: .1s;
-    color: rgba(0, 0, 0, 0.993) ;
-    transition: .5s;
-    font-size: 10px;
-    font-weight: 500;
-    margin-left: 8px ;
-    text-decoration: none;
-
-}
-.sec1{
-    background-color: var(--sec1);
     margin: 0;
-    padding: 0;
-   
-    text-align: justify;
-    display: flexbox;
-}
-
-
-.sec2{
-    background-color: var(--sec2);
-    margin: 0;
-    padding: 0;
-    text-align: justify;
-    display: flexbox;
 }
 
 nav {
@@ -116,7 +51,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 20px; /* Aumenta o espaçamento entre os itens */
+    margin: 0 20px;
 }
 
 nav ul li a {
@@ -141,3 +76,58 @@ footer {
     width: 100%;
 }
 
+.sec1, .sec2 {
+    margin: 0;
+    padding: 20px;
+    text-align: justify;
+}
+
+.sec1 {
+    background-color: var(--sec1);
+}
+
+.sec2 {
+    background-color: var(--sec2);
+}
+
+.imagens {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.botao {
+    border: none;
+    background: transparent;
+}
+
+.saibamais {
+    display: inline-block;
+    cursor: pointer;
+    background-color: rgb(0, 255, 64);
+    border-radius: 40px;
+    letter-spacing: 1px;
+    padding: 12px 16px;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    font-size: 10px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.saibamais:hover {
+    background-color: rgb(0, 200, 50);
+}
+
+@media (max-width: 646px) {
+    .titulo {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 482px) {
+    .titulo {
+        font-size: 30px;
+    }
+}
