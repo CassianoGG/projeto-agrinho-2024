@@ -101,9 +101,10 @@ body {
     display: flexbox;
 }
 
-nav{
+nav {
     background-color: var(--nav);
-    text-align: center;
+    width: 100%;
+    margin-top: 20px;
 }
 
 nav ul {
@@ -114,12 +115,21 @@ nav ul {
     justify-content: center;
 }
 
+nav ul li {
+    margin: 0 20px; /* Aumenta o espaçamento entre os itens */
+}
+
 nav ul li a {
     display: block;
     color: rgba(255, 255, 255, 0.836);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
 }
 
 footer {
