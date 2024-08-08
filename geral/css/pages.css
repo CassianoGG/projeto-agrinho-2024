@@ -54,7 +54,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px; 
-    width: 100%;
+    width: 85%;
     max-width: 900px;
     margin: 0 auto;
 }
