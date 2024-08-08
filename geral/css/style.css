@@ -48,6 +48,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 nav ul li {
@@ -105,11 +106,12 @@ footer {
     width: 100%;
     overflow: hidden;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .image-container img {
     width: 100%;
-    height: auto;
+    height: 250px;
     display: block;
     object-fit: cover;
 }
