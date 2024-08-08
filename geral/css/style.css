@@ -102,20 +102,20 @@ footer {
 }
 
 .image-container {
-    width: 70%;
+    width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 .image-container img {
-    width: 70%;
+    width: 100%;
     height: auto;
     display: block;
     object-fit: cover;
 }
 
 .imagens {
-    width: 70%;
+    width: 100%;
     max-width: 100%;
     display: block;
     margin: 0 auto 20px;
