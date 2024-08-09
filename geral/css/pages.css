@@ -41,6 +41,12 @@ body {
     text-align: justify;
 }
 
+.container li {
+    font-size: 18px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
 .container-img {
     width: 900px;
     height: 500px;
