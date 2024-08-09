@@ -11,7 +11,7 @@ body {
 
 .container {
     background-color: #1d8a1d;
-    padding: 20px  20px;
+    padding: 40px  40px;
 }
 
 .pagina {
@@ -36,7 +36,7 @@ body {
 }
 
 .container p {
-    font-size: 16px;
+    font-size: 18px;
     padding-bottom: 30px;
     text-align: justify;
 }
